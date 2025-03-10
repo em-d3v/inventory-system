@@ -1,0 +1,60 @@
+[gd_scene load_steps=4 format=3 uid="uid://gr3hxpkv1113"]
+
+[ext_resource type="Script" path="res://addons/inventory-system/trade_system/editor/trade_table_editor.gd" id="1_fjsge"]
+[ext_resource type="Script" path="res://addons/inventory-system/trade_system/editor/table_id_editor.gd" id="2_r6bmm"]
+[ext_resource type="PackedScene" uid="uid://b4sqfmdpa4ox3" path="res://addons/inventory-system/trade_system/editor/trades/trade_editor.tscn" id="3_04573"]
+
+[node name="TradeTableEditor" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fjsge")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="TableIDEditor" type="HBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+script = ExtResource("2_r6bmm")
+
+[node name="Label" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/TableIDEditor"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ScrollContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+text = "Trades"
+
+[node name="Trades" type="VBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="NewTradeButton" type="Button" parent="ScrollContainer/MarginContainer/VBoxContainer/HBoxContainer/Trades"]
+layout_mode = 2
+size_flags_vertical = 0
+text = "Add New Trade"
+
+[node name="TradesList" type="VBoxContainer" parent="ScrollContainer/MarginContainer/VBoxContainer/HBoxContainer/Trades"]
+layout_mode = 2
+
+[node name="TradeEditor" parent="ScrollContainer/MarginContainer/VBoxContainer/HBoxContainer/Trades/TradesList" instance=ExtResource("3_04573")]
+layout_mode = 2

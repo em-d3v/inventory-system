@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://cgjf30uqt4tws"]
+
+[ext_resource type="PackedScene" uid="uid://y7s1081jj0hp" path="res://addons/inventory-system/editor/base/inventory_tab_editor.tscn" id="1_q4u22"]
+[ext_resource type="Script" path="res://addons/inventory-system/trade_system/editor/trade_tables_list_editor.gd" id="2_r168f"]
+[ext_resource type="Script" path="res://addons/inventory-system/trade_system/editor/trades_editor.gd" id="2_vurdo"]
+[ext_resource type="PackedScene" uid="uid://gr3hxpkv1113" path="res://addons/inventory-system/trade_system/editor/TradeTableEditor.tscn" id="3_mhf77"]
+
+[node name="InventoryTabEditor" instance=ExtResource("1_q4u22")]
+script = ExtResource("2_vurdo")
+
+[node name="ItemTradesTableListEditor" type="VBoxContainer" parent="HSplitContainer" index="0"]
+layout_mode = 2
+script = ExtResource("2_r168f")
+
+[node name="TradeTablesPopupMenu" type="PopupMenu" parent="HSplitContainer/ItemTradesTableListEditor" index="0"]
+unique_name_in_owner = true
+
+[node name="TradeTableEditor" parent="HSplitContainer" index="1" instance=ExtResource("3_mhf77")]
+layout_mode = 2
+
+[connection signal="id_pressed" from="HSplitContainer/ItemTradesTableListEditor/TradeTablesPopupMenu" to="." method="_on_trade_tables_popup_menu_id_pressed"]

@@ -1,0 +1,78 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4sqfmdpa4ox3"]
+
+[ext_resource type="Script" path="res://addons/inventory-system/trade_system/editor/trades/trade_editor.gd" id="1_1af2q"]
+[ext_resource type="PackedScene" uid="uid://cdti5hjghul2l" path="res://addons/inventory-system/trade_system/editor/trades/trade_item_stack_editor.tscn" id="2_b5m8c"]
+
+[node name="TradeEditor" type="VBoxContainer"]
+size_flags_vertical = 3
+script = ExtResource("1_1af2q")
+
+[node name="TradeItemEditor" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Label3" type="Label" parent="TradeItemEditor"]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Level"
+
+[node name="TradeLevelEdit" type="SpinBox" parent="TradeItemEditor"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 32)
+layout_mode = 2
+tooltip_text = "Trade Level"
+min_value = 1.0
+value = 1.0
+allow_greater = true
+
+[node name="Label" type="Label" parent="TradeItemEditor"]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Item ID:"
+
+[node name="ItemIdTextEdit" type="LineEdit" parent="TradeItemEditor"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(250, 32)
+layout_mode = 2
+placeholder_text = "Place Item Name Here"
+
+[node name="Label2" type="Label" parent="TradeItemEditor"]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Amt Per Trade:"
+
+[node name="ItemAmountEdit" type="SpinBox" parent="TradeItemEditor"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 32)
+layout_mode = 2
+tooltip_text = "Amount Per Trade"
+min_value = 1.0
+value = 1.0
+allow_greater = true
+
+[node name="RequiredItems" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="RequiredItems"]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+size_flags_vertical = 1
+text = "Required Items"
+
+[node name="RequiredItemsVBoxContainer" type="VBoxContainer" parent="RequiredItems"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="newItemButton" type="Button" parent="RequiredItems/RequiredItemsVBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 0
+text = "Add New Item"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="RequiredItems/RequiredItemsVBoxContainer"]
+layout_mode = 2
+
+[node name="TradeItemStackEditor" parent="RequiredItems/RequiredItemsVBoxContainer/VBoxContainer" instance=ExtResource("2_b5m8c")]
+layout_mode = 2
+
+[connection signal="button_up" from="RequiredItems/RequiredItemsVBoxContainer/newItemButton" to="." method="_on_new_item_button_up"]

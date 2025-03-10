@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   viewBox="0 0 4.2333 4.2333"
+   id="svg1067"
+   sodipodi:docname="trade_station.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1071" />
+  <sodipodi:namedview
+     id="namedview1069"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="33"
+     inkscape:cx="6.1060606"
+     inkscape:cy="7.5151515"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1067" />
+  <rect
+     x="6.2711"
+     y="7.7305999"
+     width="0"
+     height="3.1242001"
+     rx="2"
+     ry="2"
+     stroke="#ffffff"
+     stroke-width="2"
+     id="rect1049"
+     style="fill:#35d4f4" />
+  <rect
+     x="1.3545001"
+     y="1.419"
+     stroke="#ffffff"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="0.52917"
+     id="rect1051"
+     width="0"
+     height="0"
+     style="fill:#35d4f4" />
+  <rect
+     x="0.26458001"
+     y="1.5875"
+     width="3.7042"
+     height="0.52916998"
+     ry="0.26458001"
+     id="rect1053"
+     style="fill:#35d4f4" />
+  <rect
+     x="0.79374999"
+     y="2.9103999"
+     width="2.6458001"
+     height="0.52916998"
+     ry="6.2866001e-09"
+     id="rect1055"
+     style="fill:#35d4f4" />
+  <rect
+     transform="matrix(-0.41622976,0.90925947,-0.94626211,-0.32340072,0,0)"
+     x="1.3344008"
+     y="-2.3632948"
+     width="2.2754014"
+     height="0.59004867"
+     ry="0.29501936"
+     id="rect1061"
+     style="fill:#35d4f4" />
+  <rect
+     transform="matrix(0.41990014,0.90757031,0.94730643,-0.32032879,0,0)"
+     x="2.7036991"
+     y="1.4866056"
+     width="2.2795992"
+     height="0.59570229"
+     ry="0.29785115"
+     id="rect1063"
+     style="fill:#35d4f4;stroke-width:1" />
+  <rect
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:0;stroke-linecap:round;paint-order:markers stroke fill"
+     id="rect989"
+     width="0.43292111"
+     height="0.096211366"
+     x="2.1166801"
+     y="0.66546196" />
+  <path
+     style="fill:#35d4f4;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;paint-order:markers stroke fill"
+     d="M 2.8167525,0.46094663 H 1.2335051 V 0.83381822 L 0.69904637,0.5427914 1.2334651,0.2356002 l 4e-5,0.38655306 h 1.5832474 z"
+     id="path1217"
+     sodipodi:nodetypes="cccccccc" />
+  <path
+     style="fill:#35d4f4;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;paint-order:markers stroke fill"
+     d="M 1.3224077,1.1368971 H 2.9056545 V 1.5097687 L 3.440113,1.2187419 2.9056944,0.91155067 2.9056545,1.2981038 H 1.3224077 Z"
+     id="path1217-0"
+     sodipodi:nodetypes="cccccccc" />
+  <rect
+     style="fill:#35d4f4;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;paint-order:markers stroke fill"
+     id="rect1342"
+     width="0.52916157"
+     height="0.52916157"
+     x="2.9109519"
+     y="0.2701284" />
+  <rect
+     style="fill:#35d4f4;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;paint-order:markers stroke fill"
+     id="rect1342-4"
+     width="0.52916157"
+     height="0.52916157"
+     x="0.6990459"
+     y="0.98060769" />
+</svg>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class name="Trading" inherits="Resource" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/godotengine/godot/master/doc/class.xsd">
+	<brief_description>
+		Resource that identifies a creation process happening in [TradeStation].
+	</brief_description>
+	<description>
+		Trading process is stored in its own resource and can be serialized ([method serialize]) and deserialized ([method deserialize]) for persistence and networking purposes. It also contains a [method process] that is called to update the time process of a trading.
+	</description>
+	<tutorials>
+	</tutorials>
+	<methods>
+		<method name="deserialize">
+			<return type="void" />
+			<param index="0" name="data" type="Dictionary" />
+			<description>
+				Updates the data for this trading process with a [param data] dictionary. Useful for game persistence and network synchronization.
+			</description>
+		</method>
+		<method name="is_finished" qualifiers="const">
+			<return type="bool" />
+			<description>
+				Returns true if this trading has finished.
+			</description>
+		</method>
+		<method name="process">
+			<return type="void" />
+			<param index="0" name="delta" type="float" />
+			<description>
+				Calls a time process for trading to happen, this should be called by [CraftStation].
+			</description>
+		</method>
+		<method name="serialize" qualifiers="const">
+			<return type="Dictionary" />
+			<description>
+				Transforms trading process data into a dictionary. Useful for game persistence and network synchronization.
+			</description>
+		</method>
+	</methods>
+	<members>
+		<member name="recipe_index" type="int" setter="set_recipe_index" getter="get_recipe_index" default="0">
+			Recipe index on [TradeStation].
+		</member>
+		<member name="time" type="float" setter="set_time" getter="get_time" default="0.0">
+			Elapsed trading time.
+		</member>
+	</members>
+</class>

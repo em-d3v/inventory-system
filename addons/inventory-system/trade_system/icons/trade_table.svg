@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   viewBox="0 0 4.2333 4.2333"
+   id="svg1805"
+   sodipodi:docname="trade_system_database.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1809" />
+  <sodipodi:namedview
+     id="namedview1807"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="23.334524"
+     inkscape:cx="3.6426713"
+     inkscape:cy="6.9853579"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1805" />
+  <rect
+     x="6.2711"
+     y="7.7305999"
+     width="0"
+     height="3.1242001"
+     rx="2"
+     ry="2"
+     stroke="#ffffff"
+     stroke-width="2"
+     id="rect1775"
+     style="fill:#35d4f4" />
+  <rect
+     x="1.3545001"
+     y="1.419"
+     stroke="#ffffff"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="0.52917"
+     id="rect1777"
+     width="0"
+     height="0"
+     style="fill:#35d4f4" />
+  <rect
+     x="0.26458001"
+     y="3.7042"
+     width="3.7042"
+     height="0.52916998"
+     id="rect1779"
+     style="fill:#35d4f4" />
+  <rect
+     x="0.26458001"
+     y="-4.2206e-08"
+     width="3.7042"
+     height="0.52916998"
+     id="rect1781"
+     style="fill:#35d4f4" />
+  <rect
+     transform="rotate(-90)"
+     x="-4.2333002"
+     y="4.7200999e-08"
+     width="4.2333002"
+     height="0.52916998"
+     ry="0.26868001"
+     id="rect1783"
+     style="fill:#35d4f4" />
+  <rect
+     transform="rotate(-90)"
+     x="-4.2333002"
+     y="3.7042"
+     width="4.2333002"
+     height="0.52916998"
+     ry="0.26458001"
+     id="rect1785"
+     style="fill:#35d4f4" />
+  <rect
+     x="0.79374999"
+     y="1.8521"
+     width="0.52916998"
+     height="0.52916998"
+     rx="4.2206e-08"
+     ry="4.2206e-08"
+     id="rect1789"
+     style="fill:#35d4f4" />
+  <rect
+     x="0.79374373"
+     y="1.3229063"
+     width="1.3229063"
+     height="0.39687186"
+     rx="3.1654054e-08"
+     ry="3.1654054e-08"
+     id="rect1789-6"
+     style="display:none;fill:#35d4f4;stroke-width:1.36929" />
+  <rect
+     x="0.79374999"
+     y="2.6458001"
+     width="0.52916998"
+     height="0.79374999"
+     rx="4.2206e-08"
+     ry="6.3309002e-08"
+     id="rect1791"
+     style="fill:#35d4f4" />
+  <rect
+     x="1.5875"
+     y="1.8521"
+     width="0.79374999"
+     height="0.52916998"
+     rx="6.3309002e-08"
+     ry="4.2206e-08"
+     id="rect1797"
+     style="fill:#35d4f4" />
+  <rect
+     x="2.6458001"
+     y="1.8521"
+     width="0.79374999"
+     height="0.52916998"
+     rx="6.3309002e-08"
+     ry="4.2206e-08"
+     id="rect1799"
+     style="fill:#35d4f4" />
+  <path
+     style="fill:#35d4f4;stroke:#ffffff;stroke-width:0;stroke-linecap:round;paint-order:markers stroke fill"
+     d="m 0.79374372,1.0583193 v 0.33071 H 2.1166489 V 1.5874866 L 2.645811,1.2487282 2.1166489,0.92603527 V 1.1244614 H 0.79374372"
+     id="path2486"
+     sodipodi:nodetypes="cccccccc" />
+  <path
+     style="fill:#35d4f4;stroke:#ffffff;stroke-width:0;stroke-linecap:round;paint-order:markers stroke fill"
+     d="m 3.4395681,2.8442933 v 0.33071 H 2.116663 V 3.3734606 L 1.5875009,3.0347022 2.116663,2.7120093 v 0.1984261 h 1.3229051"
+     id="path2559"
+     sodipodi:nodetypes="cccccccc" />
+  <rect
+     x="2.7780902"
+     y="0.85988593"
+     width="0.52916998"
+     height="0.79374999"
+     rx="4.2206e-08"
+     ry="6.3309002e-08"
+     id="rect1791-3"
+     style="fill:#35d4f4" />
+</svg>
