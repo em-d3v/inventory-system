@@ -1,7 +1,7 @@
 short_name = "inventory-system"
 name = "Inventory System"
 major = 2
-minor = 11
+minor = 12
 patch = 0
 status = "dev"
 module_config = ""
